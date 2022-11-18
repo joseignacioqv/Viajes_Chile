@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.transparent {
+   background: transparent;
+   position: fixed;
+   width: 100%;
+   z-index: 10
+  }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img-fluid {
+    width: 40px;
+}
+
+.fa-brands {
+    height: 20%;
+}
+
+.barra-icon {
+    background-color: rgb(255, 85, 0);
+}
+
+.barra-footer {
+    background-color: rgb(255, 0, 0);
+
+}
+
+.barra-quienes {
+    background-color: black;
+}
+
+.barra-destacados {
+    background-color: black;
+}
+
+.barra-contacto {
+    background-color: black;
+}
+
+.card {
+    margin-bottom: 50px;
+}
