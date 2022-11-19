@@ -1,8 +1,8 @@
-window.addEventListener('scroll', function() {
-    var nav = document.querySelector('nav');
-    if (window.scrollY >100) {
-        nav.classList.add('bg-dark');
-    } else {
-        nav.classList.remove('bg-dark');
-    }
-});
+$(function(){ // Inicio de function//
+
+
+    // tooltip "enviar correo" boton de cabecera //
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    
+    }); // cierre de function //
